@@ -20,3 +20,5 @@ def install(package):
 # Instalar todas as bibliotecas da lista
 for library in libraries:
     install(library)
+
+# transformar em execultável pyinstaller.exe --hidden-import babel.numbers -w --icon=logo script
